@@ -15,3 +15,16 @@ but if we are already on a branch than we can't delete that branch-->
 
 <!-- if we have more than one branch and we want the changes made in another branch to be showing on github just assume that our second branch is feature1 then this time we are going to be push like git push origin feature1 -->
 
+
+<!-- 
+Merging code(branch)
+git diff <-branchname-> to compare commits,branches,files and more....to exit this just type q
+
+git merge <-branchname-> to merge 2 branches this one is the first way of merging 
+
+the other way of merging is on github by creating a PR which is a pull request
+Pull Request - it lets you tell others about changes you've pushed to a branch in a repository on github
+
+
+
+ -->
