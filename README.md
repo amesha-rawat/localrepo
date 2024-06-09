@@ -29,3 +29,20 @@ Pull Request - it lets you tell others about changes you've pushed to a branch i
  <!-- 
  git pull origin main 
  it is used to fetch and download content from a remote repo and immediately update the local repo to match that content -->
+
+ <!-- undoing changes
+ 
+ case 1: staged changes (which are added but not commited)
+        git reset<-filename->  if we want to reset a particular file
+        git reset if we want to reset all the files
+
+case 2: commited changes (for one commit)
+        git reset HEAD~1 it means that the latest commit is default named as HEAD so it means reset the HEAD by 1
+
+case 3: commited changes(for many commits)
+        git reset <-commit hash->  hash is a code...each commit has it's own hash code and just to get this hash code we use git log command
+
+        git reset --hard <-commit hash-> using hard will reset changes in vs code also           
+  -->
+
+  <!-- git log it is used to check all the commits -->
