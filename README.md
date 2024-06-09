@@ -24,7 +24,8 @@ git merge <-branchname-> to merge 2 branches this one is the first way of mergin
 
 the other way of merging is on github by creating a PR which is a pull request
 Pull Request - it lets you tell others about changes you've pushed to a branch in a repository on github
-
-
-
  -->
+
+ <!-- 
+ git pull origin main 
+ it is used to fetch and download content from a remote repo and immediately update the local repo to match that content -->
